@@ -1,0 +1,22 @@
+{
+  "name": "04-ai-chat-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["backend", "express.js", "gemini api", "node.js"],
+  "author": "Ankita Kumari",
+  "license": "ISC",
+  "description": "project description yaha add kr dena",
+  "dependencies": {
+    "@google/genai": "^0.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
